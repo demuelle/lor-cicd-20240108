@@ -24,7 +24,7 @@ describe('Character Component Content Structure', () => {
 
     it("Renders an H2 for the Character's Name", () => {
         render(<Character />);
-        const characterHeading = screen.getByRole('heading', { level: 3 });
+        const characterHeading = screen.getByRole('heading', { level: 2 });
 
         expect(characterHeading).toBeDefined();
     });
